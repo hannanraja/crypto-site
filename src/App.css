@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 10vh;
 }
 
 .App-logo {
@@ -12,7 +13,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+input{
+  margin: 40px 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +38,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+tr{
+  border:2px solid black;
+  text-align: center;
+  margin:auto;
+
+}
+img{
+  width:30px;
+  height:30px;
+}
+td{
+  margin-top: 8vh;
+  padding:20px;
+  width:20vw;
+  font-size: 22px;
+  font-weight: 700;
+  border: 2px solid #42444b; 
+}
+
+th{
+  background-color: black;
+  color:white;
+  font-size: 25px;
+  padding: 20px 10px;
 }
